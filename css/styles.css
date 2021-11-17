@@ -1,0 +1,74 @@
+body {
+	font-size: 21px;
+	color: white;
+	background-color: #e20f07;
+	font-family: 'Dancing Script', cursive;
+	font-family: 'Permanent Marker', cursive;
+}
+
+h1{
+	font-size: 40px;
+
+}
+/*HEADER */
+#header-nav {
+	background-color: #470301;
+	border: 0;
+	border-radius: 0;
+	color: white;
+}
+
+.navbar-brand p {
+	color: rgb(119, 226, 115);
+	font-size: 23px;
+}
+
+#nav-list a:hover {
+	background-color: #439bd6;
+}
+#nav-list a {
+	color: rgb(252, 253, 252);
+	text-align: center;
+}
+
+.navbar-brand a:focus, .navbar-brand a:hover {
+	text-decoration: none;
+}
+
+
+/* Section */
+
+.row > div > article {
+	background-color: rgb(247, 3, 186);
+	margin-bottom: 23px;
+	text-align: justify;
+	padding: 15px;
+	color: black;
+}
+
+.row {
+	float: left;
+	position: relative;
+}
+
+#home {
+	margin-bottom: 33px;
+}
+
+.row > div > article {
+	background-color: rgb(141, 211, 95);
+	text-align: justify;
+	margin-bottom: 23px;
+	padding: 15px;
+	color: rgb(20, 13, 13);
+}
+/*Section */
+
+
+@media (max-width: 767px) {
+	.row > div > article {
+		margin: 23px auto 0;
+		width: 80%;
+		
+	}
+}
